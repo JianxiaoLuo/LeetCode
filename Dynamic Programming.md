@@ -18,7 +18,7 @@ For the upper example, `dp[0] = 1, dp[1] = 30, dp[2] = 45, ...` It is easy to ge
 The key point here is that for every next A[i], we should consider it should be grouped with how many former items (from 1 to K). 
 Let's say `j = 1, 2,..., K`, 
 - when j = 1, it means that the former groups don't make a change, A[i] just be simply added to dp. `dp[i] = dp[i-1] + A[i]`. 
-- when j = other, we need to find the maximum item in this j items and replace other j-1 items with it. `dp[i] = dp[i-j] + max(A[i-j+1:i+1])*j·
+- when j = other, we need to find the maximum item in this j items and replace other j-1 items with it. `dp[i] = dp[i-j] + max(A[i-j+1:i+1])*j·`
 
 In conclusion, this is the formula of dp[i]: `dp[i] = max(dp[i-j] + max(A[i-j+1:i+1])*j)`
 

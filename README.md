@@ -11,5 +11,8 @@ This is the notebook of my LeetCode solution and notes.
 # Dynamic Programming
 \#1043.Partition Array for Maximum Sum
 
+# Dict
+\#1.Two Sum
+
 # Others
 \#1185.Day of the Week

@@ -19,3 +19,4 @@ This is the notebook of my LeetCode solution and notes.
 
 # Others
 \#1185.Day of the Week
+\#231.Power of two

@@ -14,5 +14,5 @@
 - Count repeat elements in a list
 `alist.count('a')`
 - Find an element in a list
-`alist.index('a')', it will only return the index of the first element in the list
+`alist.index('a')`, it will only return the index of the first element in the list
 - Remove element `alist.remove('a')`

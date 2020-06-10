@@ -16,3 +16,11 @@
     
     So, if in this problem, I should use `not` other than `~`.
 
+## 2. Add Two Numbers
+- Ternary conditional operator(三目运算符）
+
+    `a if condition else b`: a is returned when condition is true, else b is returned.
+- Division in Python
+    `/` is the exact division, `//` is the downward division, `%` is the modulus.
+    
+    `round` can round off, round down and round up: `math.floor, math.ceil`

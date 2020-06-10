@@ -3,6 +3,7 @@ class Solution:
         l, h = 0, len(nums)-1
         
         while l <= h:
+            # Search from the left end and right end, and move to the center
             m = l + (h-l) // 2
             
             if nums[m] == target:

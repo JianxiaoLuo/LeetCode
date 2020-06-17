@@ -1,0 +1,42 @@
+class Solution:
+    def validIPAddress(self, IP: str) -> str:
+        if '.' in IP:
+            sub = IP.split('.')
+            l = len(sub)
+            if l == 4:
+                sub_int = [0] * 4
+                try:
+                    for i in range(4):
+                        if sub[i][0]=='0' and len(sub[i])>1:
+                            return "Neither"
+                        sub_int[i] = int(sub[i])
+                    for i in range(4):
+                        if sub_int[i] > 255 or sub_int[i] < 0:
+                            return "Neither"
+                        if sub_int[i] == 0 and len(sub[i])>1 :
+                            return "Neither"
+                    return "IPv4"
+                except (ValueError, TypeError, IndexError):
+                    return "Neither"
+            else: return "Neither"
+        elif ':' in IP:
+            if IP.find("::")!=-1:
+                return "Neither"
+            sub = IP.split(':')
+            print(sub)
+            l = len(sub)
+            if l == 8:
+                for s in sub:
+                    if len(s) <= 4:
+                        for c in s:
+                            if re.fullmatch(r"^[0-9a-fA-F]$", c or "") is not None:
+                                continue
+                            else:
+                                return "Neither"
+                    else:
+                        return "Neither"
+                return "IPv6"
+            else:
+                return "Neither"
+        else:
+            return "Neither"

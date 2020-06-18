@@ -15,6 +15,9 @@ This is the notebook of my LeetCode solution and notes.
 # Dynamic Programming
 \#1043.Partition Array for Maximum Sum
 
+# Search
+\#275. H-Index II (binary search)
+
 # Dict
 \#1.Two Sum
 

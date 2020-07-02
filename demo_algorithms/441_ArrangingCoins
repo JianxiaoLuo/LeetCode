@@ -1,0 +1,22 @@
+# Binary search
+class Solution:
+    def arrangeCoins(self, n: int) -> int:
+        left, right = int(0), int(n+1) #[left, right)
+        while left < right:
+            mid = left + (right - left) // 2
+            if mid * (mid + 1) / 2 <= n:
+                left = mid + 1
+            else:
+                right = mid
+        return left - 1
+
+# Simple solution
+class Solution:
+    def arrangeCoins(self, n: int) -> int:
+        num = 0
+        i = 1
+        while True:
+            num += i
+            if num > n:
+                return i-1
+            i += 1

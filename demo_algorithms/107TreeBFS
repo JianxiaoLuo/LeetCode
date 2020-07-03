@@ -1,0 +1,19 @@
+class Solution:
+    def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
+        if not root:
+            return 
+        thislevel = [root]
+        ans = []
+        while thislevel:
+            value = []
+            nextlevel = []
+            for n in thislevel:
+                value.append(n.val)
+                if n.left:
+                    nextlevel.append(n.left)
+                if n.right:
+                    nextlevel.append(n.right)
+            ans.append(value)
+            thislevel = nextlevel
+        ans.reverse()
+        return ans

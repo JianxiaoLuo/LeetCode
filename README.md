@@ -33,7 +33,10 @@ This is the notebook of my LeetCode solution and notes.
 \#461. Hamming Distance
 
 # Others
-\#1185.Day of the Week
+\#1185.Day of the Week (Date)
 
 \#2. Add Two Numbers
+
+\#957. Prison Cells After N Days (find the cycle)
+
 

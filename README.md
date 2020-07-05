@@ -15,9 +15,13 @@ This is the notebook of my LeetCode solution and notes.
 # Dynamic Programming
 \#1043.Partition Array for Maximum Sum
 
+\#264. Ugly Number II (Universal DP)
+
 # Search
 \#275. H-Index II (binary search)
+
 \#441. Arranging Coins (binary search)
+
 \#107. Binary Tree Level Order Traversal II (BFS Tree)
 
 # Dict
@@ -29,3 +33,4 @@ This is the notebook of my LeetCode solution and notes.
 \#231.Power of two
 
 \#2. Add Two Numbers
+

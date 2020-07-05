@@ -1,0 +1,24 @@
+# Similar as the method to combine three sorted lists
+# Have to record the position of each list
+
+class Solution:
+    def nthUglyNumber(self, n: int) -> int:
+        ugly = [1]
+        i2, i3, i5 = 0, 0, 0
+
+        for i in range(n-1):
+            mul2 = ugly[i2] * 2
+            mul3 = ugly[i3] * 3
+            mul5 = ugly[i5] * 5
+            
+            mini = min(mul2, mul3, mul5)
+            ugly.append(mini)
+            
+            if mul2 == mini:
+                i2 += 1
+            if mul3 == mini:
+                i3 += 1
+            if mul5 == mini:
+                i5 += 1
+            
+        return ugly[-1]

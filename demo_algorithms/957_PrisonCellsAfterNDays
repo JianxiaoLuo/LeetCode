@@ -1,0 +1,45 @@
+# My solution (Brute Force, failed)
+class Solution:
+    def prisonAfterNDays(self, cells: List[int], N: int) -> List[int]:
+        yestoday = cells.copy()
+        cells[0] = 0
+        cells[-1] = 0
+        pre = {}
+        for i in range(N):
+            for j in range(1,7):
+                if yestoday[j-1] == yestoday[j+1]:
+                    cells[j] = 1
+                else:
+                    cells[j] = 0
+                
+            yestoday = cells.copy()
+        return cells
+        
+# The state will repeat as a loop, we don't need to compute every state
+class Solution:
+    def prisonAfterNDays(self, cells: List[int], N: int) -> List[int]:
+    
+        start_N = N
+        cycle = 0
+        
+        while start_N:
+            next_day = [0] * 8
+            for i in range(1, 7):
+                if cells[i-1] == cells[i+1]:
+                    next_day[i] = 1
+                    
+            # The loop starts from the first state (just in case the 0 and 7 cell are 1)
+            if cycle == 0:
+                start_cells = next_day[::]
+
+            # when start to repeat, we can compute the result based on start_N % cycle
+            if cycle >0 and next_day == start_cells:
+                start_N = start_N % cycle
+
+            cells = next_day[::]
+            cycle += 1
+            start_N -= 1
+        
+        return cells
+
+

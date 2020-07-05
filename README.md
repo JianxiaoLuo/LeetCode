@@ -27,10 +27,13 @@ This is the notebook of my LeetCode solution and notes.
 # Dict
 \#1.Two Sum
 
+# Bit manipulation
+\#231.Power of two
+
+\#461. Hamming Distance
+
 # Others
 \#1185.Day of the Week
-
-\#231.Power of two
 
 \#2. Add Two Numbers
 

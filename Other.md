@@ -24,3 +24,6 @@
     `/` is the exact division, `//` is the downward division, `%` is the modulus.
     
     `round` can round off, round down and round up: `math.floor, math.ceil`
+
+## 66. Plus One
+- Loop backwards: `range(10, 0, -1)`, it gives `[10, 9, 8, 7, 6, 5, 4, 3, 2, 1] `

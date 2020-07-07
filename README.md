@@ -37,6 +37,8 @@ This is the notebook of my LeetCode solution and notes.
 
 \#2. Add Two Numbers
 
+\#66. Plus One (similar with #2)
+
 \#957. Prison Cells After N Days (find the cycle)
 
 

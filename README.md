@@ -12,6 +12,8 @@ This is the notebook of my LeetCode solution and notes.
 
 \#1337.The K Weakest Rows in a Matrix
 
+\#15. 3Sum (front pointer and back pointer)
+
 # Dynamic Programming
 \#1043.Partition Array for Maximum Sum
 

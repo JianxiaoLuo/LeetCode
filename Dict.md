@@ -10,4 +10,5 @@ My solution:
         for i in range(l):
             if target - nums[i] in dic:
                 return [i, dic[target-nums[i]]]
-            else: dic[nums[i]] = i```
+            else: dic[nums[i]] = i
+```

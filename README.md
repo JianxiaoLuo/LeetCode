@@ -43,4 +43,4 @@ This is the notebook of my LeetCode solution and notes.
 
 \#957. Prison Cells After N Days (find the cycle)
 
-
+\#1344. Angle Between Hands of a Clock (calculate the small angle between minute and hour pointer)

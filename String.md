@@ -16,5 +16,15 @@
     [RE Cheat Sheet](http://web.mit.edu/hackl/www/lab/turkshop/slides/regex-cheatsheet.pdf)
     
 - IP address package: `from ipaddress import ip_address, IPv6Address`
+
+
+## 151. Reverse Words in a String
+- To reverse a string. 
+
+    `return " ".join(s.split()[::-1])`  
+    
+    The `join()` string method returns a string by joining all the elements of an iterable, separated by a string separator.
+    
+    `list[::-1]`can iterate reverse the list.
     
     

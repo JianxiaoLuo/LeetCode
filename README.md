@@ -3,7 +3,10 @@ This is the notebook of my LeetCode solution and notes.
 
 # String
 \#1324. Print Words Vertically
+
 \#468. Validate IP Address
+
+\#151. Reverse Words in a String
 
 # List
 \#1431.Kids With the Greatest Number of Candies

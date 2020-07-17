@@ -20,6 +20,8 @@ This is the notebook of my LeetCode solution and notes.
 
 \#15. 3Sum (front pointer and back pointer)
 
+\#347. Top K Frequent Elements (Heap)
+
 # Dynamic Programming
 \#1043.Partition Array for Maximum Sum
 

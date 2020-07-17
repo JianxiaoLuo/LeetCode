@@ -8,6 +8,9 @@ This is the notebook of my LeetCode solution and notes.
 
 \#151. Reverse Words in a String
 
+# Recursive
+\#50. Pow(x, n) 
+
 # List
 \#1431.Kids With the Greatest Number of Candies
 
@@ -47,3 +50,4 @@ This is the notebook of my LeetCode solution and notes.
 \#957. Prison Cells After N Days (find the cycle)
 
 \#1344. Angle Between Hands of a Clock (calculate the small angle between minute and hour pointer)
+

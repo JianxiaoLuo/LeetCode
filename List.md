@@ -16,3 +16,6 @@
 - Find an element in a list
 `alist.index('a')`, it will only return the index of the first element in the list
 - Remove element `alist.remove('a')`
+
+## 203. Remove Linked List Elements
+- Set a pointer pointing to the former position. `front.next = head`

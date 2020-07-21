@@ -11,8 +11,10 @@
 
 - One way to avoid that problem is to use another variable `tmp` to store the former value, after deep searching for this location, restore the value.
 
-```tmp = board[i][j]
-                    board[i][j] = '$'
-                    if dfs(i-1, j, index+1) or dfs(i+1, j, index+1) or dfs(i, j-1, index+1) or dfs(i, j+1, index+1):         
-                        return True
-                    board[i][j] = tmp```
+```
+tmp = board[i][j]
+board[i][j] = '$'
+if dfs(i-1, j, index+1) or dfs(i+1, j, index+1) or dfs(i, j-1, index+1) or dfs(i, j+1, index+1):         
+    return True
+board[i][j] = tmp
+```

@@ -22,6 +22,8 @@ This is the notebook of my LeetCode solution and notes.
 
 \#347. Top K Frequent Elements (Heap)
 
+\#203. Remove Linked List Elements
+
 # Dynamic Programming
 \#1043.Partition Array for Maximum Sum
 

@@ -36,6 +36,8 @@ This is the notebook of my LeetCode solution and notes.
 
 \#107. Binary Tree Level Order Traversal II (BFS Tree)
 
+\#79. Word Search (DFS)
+
 # Dict
 \#1.Two Sum
 

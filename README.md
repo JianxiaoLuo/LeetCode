@@ -38,6 +38,8 @@ This is the notebook of my LeetCode solution and notes.
 
 \#79. Word Search (DFS)
 
+\#797. All Paths From Source to Target (DFS)
+
 # Dict
 \#1.Two Sum
 

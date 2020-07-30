@@ -40,6 +40,11 @@ This is the notebook of my LeetCode solution and notes.
 
 \#797. All Paths From Source to Target (DFS)
 
+# Tree
+\#107. Binary Tree Level Order Traversal II (BFS Tree)
+
+\#106. Construct Binary Tree from Inorder and Postorder Traversal (Recursion)
+
 # Dict
 \#1.Two Sum
 
